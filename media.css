@@ -1,0 +1,56 @@
+/* usando medidas padrões */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+
+  header ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  header ul li {
+    margin: 10px 0;
+  }
+
+  main {
+    margin-top: 180px;
+  }
+
+  main p {
+    font-size: 20px;
+  }
+
+  main button {
+    margin-top: 50px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .container {
+    padding-top: 30px;
+  }
+
+  .wrapper {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .input-box {
+    margin: 20px 0;
+  }
+
+  .input-box label {
+    font-size: 13px;
+  }
+
+  .input-box input {
+    font-size: 13px;
+  }
+}
+
